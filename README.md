@@ -13,11 +13,11 @@ The Wiki page follows the structure of the existing [Work with TRMNL](https://wi
 
 Comment however suits you: reply by email, open an issue here, or comment on a commit. Wording, structure and anything that doesn't match the Wiki's house style are all welcome.
 
-GitHub can't render the page's Docusaurus components, and its images point at `files.seeedstudio.com`, where they aren't uploaded yet. So the screenshots are shown below in page order.
+GitHub shows the page's text and images, but not its Docusaurus parts: the tabs appear as plain sections and the tip and caution boxes as plain text. The screenshots are also listed below in page order.
 
 ## Images
 
-The page expects each image at `https://files.seeedstudio.com/wiki/reterminal_e10xx/img/tesserae/<file>`. The files are in [`wiki/images/`](wiki/images/). Please tell me if you'd rather I name or size them differently, or if your team prefers another folder.
+In this copy, the page loads its images from [`wiki/images/`](wiki/images/). For the pull request they'll point at `https://files.seeedstudio.com/wiki/reterminal_e10xx/img/tesserae/<file>`, once your team has uploaded them there. Please tell me if you'd rather I name or size them differently, or if your team prefers another folder.
 
 The screenshots come from a Tesserae server taken through the full setup with a reTerminal Sticky (480×800, 4-level greyscale).
 

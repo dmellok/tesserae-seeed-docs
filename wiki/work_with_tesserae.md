@@ -11,7 +11,7 @@ keywords:
   - reTerminal E1003
   - reTerminal E1004
   - reTerminal Sticky
-image: https://files.seeedstudio.com/wiki/reterminal_e10xx/img/tesserae/cover.webp
+image: images/cover.webp
 slug: /reterminal_e10xx_tesserae
 sidebar_position: 4
 last_update:
@@ -27,8 +27,9 @@ import TabItem from '@theme/TabItem';
 
 # Work with Tesserae
 
-<!-- TODO image: cover photo, the reTerminal family and a Sticky painting Tesserae dashboards side by side -->
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/tesserae/cover.jpg" style={{width:700, height:'auto'}}/></div>
+:::note TODO
+Cover photo: the reTerminal family and a Sticky painting Tesserae dashboards side by side.
+:::
 
 This guide takes a reTerminal E Series device or a reTerminal Sticky from the box to a dashboard on the wall with **Tesserae**. You flash the firmware once from the browser, connect the device to your own Tesserae server, and design its pages in the web editor. The steps are the same on every device. Where they differ, pick your device in the tabs.
 
@@ -42,7 +43,7 @@ Tesserae is an open source, self-hosted dashboard server for e-paper displays. Y
 
 The project began with the reTerminal E Series and grew alongside it. The E1001 was one of the first devices Tesserae supported, and the E Series remains among the most-flashed hardware on the project's web flasher.
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/tesserae/15-editor-html-view.png" style={{width:700, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="images/15-editor-html-view.png" style={{width:700, height:'auto'}}/></div>
 
 ### Why use Tesserae?
 
@@ -121,7 +122,7 @@ The project began with the reTerminal E Series and grew alongside it. The E1001 
     </tr>
     <tr>
       <!-- TODO image: Seeed's Sticky product image from files.seeedstudio.com -->
-      <td><div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/tesserae/sticky.jpg" style={{width:200, height:'auto'}}/></div></td>
+      <td align="center"><em>Sticky product image (TODO)</em></td>
     </tr>
     <tr>
       <td align="center">4-level greyscale, 480 × 800 portrait<br/>Touch supported</td>
@@ -253,13 +254,13 @@ The first time you open Tesserae (except as a Home Assistant App, which signs yo
 4. **Device**: the page waits for a panel to announce itself. Click **Skip for now** and approve the device in Step 4, or leave this page open while you flash: when the device appears under **Discovered**, give it a name and click **Register**. You don't need a pairing code.
 5. **Dashboard**: choose **I'll set this up later**, or come back after Step 4 to create a starter dashboard bound to your device.
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/tesserae/01-first-run-set-password.png" style={{width:700, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="images/01-first-run-set-password.png" style={{width:700, height:'auto'}}/></div>
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/tesserae/02-wizard-welcome.png" style={{width:700, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="images/02-wizard-welcome.png" style={{width:700, height:'auto'}}/></div>
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/tesserae/05-wizard-transport.png" style={{width:700, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="images/05-wizard-transport.png" style={{width:700, height:'auto'}}/></div>
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/tesserae/06b-wizard-device-discovered.png" style={{width:700, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="images/06b-wizard-device-discovered.png" style={{width:700, height:'auto'}}/></div>
 
 ## Step 2: Flash the Tesserae Firmware
 
@@ -318,7 +319,7 @@ After flashing, the device shows a **Setup mode** screen with a QR code, the set
    - **Relay**: for a device on a different network from your server. Enter the pairing code from **Settings → Cloud relay → Add a remote panel** on your server.
 5. Tap **Save & restart**. The device joins your Wi-Fi and announces itself to the server.
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/tesserae/07-device-setup-portal-phone.png" style={{width:320, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="images/07-device-setup-portal-phone.png" style={{width:320, height:'auto'}}/></div>
 <!-- TODO image (photo): a device showing the Setup mode screen with the QR code -->
 
 :::tip
@@ -334,11 +335,11 @@ New devices wait for your approval, so nobody else's device can attach itself to
 3. Give it a display name, such as "Kitchen" or "Hallway", and click **Register**.
 4. The device collects its access token on its next check-in and moves to the **Devices** list. Its card shows what it's showing, battery, firmware version and the next scheduled update.
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/tesserae/08-devices-discovered.png" style={{width:700, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="images/08-devices-discovered.png" style={{width:700, height:'auto'}}/></div>
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/tesserae/09-register-name-device.png" style={{width:700, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="images/09-register-name-device.png" style={{width:700, height:'auto'}}/></div>
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/tesserae/10-device-registered.png" style={{width:700, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="images/10-device-registered.png" style={{width:700, height:'auto'}}/></div>
 
 ## Step 5: Build a Dashboard and Push It
 
@@ -350,9 +351,9 @@ New devices wait for your approval, so nobody else's device can attach itself to
 Back on the setup wizard's **Dashboard** step, **Create a starter dashboard** makes a clock sized to your device and bound to it. Click **Push to panel** to confirm everything is connected, then open it in the editor to make it yours.
 :::
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/tesserae/16-editor-panel-view.png" style={{width:700, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="images/16-editor-panel-view.png" style={{width:700, height:'auto'}}/></div>
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/tesserae/13-device-card-after-push.png" style={{width:700, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="images/13-device-card-after-push.png" style={{width:700, height:'auto'}}/></div>
 
 Some tips for each panel:
 
@@ -402,7 +403,7 @@ Touch keeps the touch controller powered through deep sleep. For longer battery 
 
 Turn on **Beep on interaction** if you want the buzzer to confirm each tap or press before the panel repaints.
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/tesserae/sticky-touch-lights.png" style={{width:300, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="images/sticky-touch-lights.png" style={{width:300, height:'auto'}}/></div>
 
 </TabItem>
 </Tabs>
@@ -413,7 +414,7 @@ Firmware updates arrive over the air. **Settings → Firmware** in the Tesserae 
 
 Tesserae checks for new firmware when online features are on (**Settings → System → Online features**). On an offline install, download the `descriptor-<kind>.json` file from the [firmware release](https://github.com/dmellok/tesserae-device-firmware/releases) and import it under **Manual import**.
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/tesserae/19b-firmware-update-available-crop.png" style={{width:700, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="images/19b-firmware-update-available-crop.png" style={{width:700, height:'auto'}}/></div>
 
 ## FAQ
 
