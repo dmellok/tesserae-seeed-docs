@@ -13,7 +13,7 @@ keywords:
   - reTerminal Sticky
 image: images/cover.jpg
 slug: /reterminal_e10xx_tesserae
-sidebar_position: 4
+sidebar_position: 12
 last_update:
   date: 11/12/2026
   author: Kayden D'Mello
@@ -168,7 +168,7 @@ Tesserae is protected by a single password and is designed for a trusted home ne
 1. In Home Assistant, open **Settings → Apps → App store**.
 2. Open the menu at the top right, choose **Repositories**, and add:
 
-```
+```text
 https://github.com/dmellok/homeassistant-tesserae-addon
 ```
 
@@ -407,7 +407,7 @@ The **E1003** also supports touch. See the Touch section in the Sticky tab; it w
 - Hold the power button for about **3 seconds** and release it to switch to Bluetooth setup through the Tesserae companion app.
 - Hold the power button for **20 seconds** to factory reset. This erases the saved Wi-Fi and server settings and returns the Sticky to the setup screen.
 
-**Touch**
+### Touch
 
 Touch is off by default to save battery. To turn it on, open the device card, go to **General**, and switch on **Touch input**. Tap regions on a page then act as buttons. They can toggle Home Assistant lights, switch pages or trigger actions, and the panel confirms each tap with a partial refresh in under a second.
 
