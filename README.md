@@ -23,7 +23,7 @@ The screenshots come from a Tesserae server taken through the full setup with a 
 
 | Section | File | Shows |
 |---|---|---|
-| Cover | `cover.jpg` | Photo: the reTerminal E Series and a Sticky painting Tesserae dashboards (the lineup photo from tesserae.ink) |
+| Cover | `cover.jpg` | Photo: the reTerminal E Series painting Tesserae dashboards (the lineup photo from tesserae.ink) |
 | What is Tesserae? | `15-editor-html-view.png` | The dashboard editor |
 | Compatible Hardware | `sticky-product.jpg` | The Sticky, cropped from `1X1A0256.JPG` in the product photos Mason sent |
 | Step 1, Home Assistant App | `26-ha-app-store-tesserae.png` | Tesserae in the Home Assistant App store |
