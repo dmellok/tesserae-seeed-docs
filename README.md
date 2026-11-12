@@ -36,7 +36,9 @@ The screenshots come from a Tesserae server taken through the full setup with a 
 | Step 2, Sticky | `23-playground-flash-mode.png` | Flash to device, with Erase flash + flash selected |
 | Step 2, Sticky | `24-playground-serial-port.png` | The browser's serial port prompt, showing the Sticky |
 | Step 2, Sticky | `25-playground-device-log.png` | The Device Log part-way through flashing |
+| Step 3 | `sticky-setup-mode.jpg` | Photo: a Sticky on the Setup mode screen with the QR code |
 | Step 3 | `07-device-setup-portal-phone.png` | The device's Wi-Fi setup page on a phone |
+| Step 4 | `sticky-almost-done.jpg` | Photo: a Sticky waiting for approval |
 | Step 4 | `08-devices-discovered.png` | Settings → Devices, a new device waiting for approval |
 | Step 4 | `09-register-name-device.png` | Naming the device before registering |
 | Step 4 | `10-device-registered.png` | The registered device's card |
@@ -74,7 +76,11 @@ The screenshots come from a Tesserae server taken through the full setup with a 
 
 <img src="wiki/images/25-playground-device-log.png" width="360">
 
+<img src="wiki/images/sticky-setup-mode.jpg" width="320">
+
 <img src="wiki/images/07-device-setup-portal-phone.png" width="320">
+
+<img src="wiki/images/sticky-almost-done.jpg" width="320">
 
 <img src="wiki/images/08-devices-discovered.png" width="700">
 
@@ -94,7 +100,7 @@ The screenshots come from a Tesserae server taken through the full setup with a 
 
 ## Still to come
 
-- **Photos of the devices:** a cover shot of the reTerminal family and a Sticky painting dashboards, a device on its setup screen with the QR code, and each device painting a dashboard. The page marks each spot with a `TODO` comment.
+- **Photos of the devices:** a cover shot of the reTerminal family and a Sticky painting dashboards, and each device painting a dashboard. The page marks each spot with a `TODO` comment.
 
 ## Settled on 11 November
 

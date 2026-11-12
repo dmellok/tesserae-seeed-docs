@@ -321,6 +321,8 @@ Flashing Tesserae replaces the firmware currently on the device. You can go back
 
 After flashing, the device shows a **Setup mode** screen with a QR code, the setup network's name and its password.
 
+<div style={{textAlign:'center'}}><img src="images/sticky-setup-mode.jpg" style={{width:320, height:'auto'}}/></div>
+
 1. On your phone or computer, join the Wi-Fi network **Tesserae-Setup** (password `tesserae`), either by scanning the QR code or by picking it from the list.
 2. The setup page opens on its own. If it doesn't, browse to `http://192.168.4.1`.
 3. Enter your 2.4 GHz Wi-Fi name and password, or pick your network from the list the device scanned.
@@ -331,7 +333,6 @@ After flashing, the device shows a **Setup mode** screen with a QR code, the set
 5. Tap **Save & restart**. The device joins your Wi-Fi and announces itself to the server.
 
 <div style={{textAlign:'center'}}><img src="images/07-device-setup-portal-phone.png" style={{width:320, height:'auto'}}/></div>
-<!-- TODO image (photo): a device showing the Setup mode screen with the QR code -->
 
 :::tip
 The setup network stays up for 15 minutes after the last visitor leaves. If it has timed out, restart the device, or press a front button on boards that have one, to bring the setup screen back.
@@ -339,7 +340,9 @@ The setup network stays up for 15 minutes after the last visitor leaves. If it h
 
 ## Step 4: Register the Device in Tesserae
 
-New devices wait for your approval, so nobody else's device can attach itself to your server. Until you approve it, the device shows **"Almost done — approve this device in Tesserae"**.
+New devices wait for your approval, so nobody else's device can attach itself to your server. Until you approve it, the device shows **Almost done** and asks you to approve it in Tesserae under **Settings → Devices**.
+
+<div style={{textAlign:'center'}}><img src="images/sticky-almost-done.jpg" style={{width:320, height:'auto'}}/></div>
 
 1. In the Tesserae web UI, a **New device** badge appears in the sidebar. Open **Settings → Devices**, where a banner reads "1 device has been heard but is not registered".
 2. Click **Register** on the banner. Tesserae shows the device's model, panel size and firmware version, with the model already selected.
