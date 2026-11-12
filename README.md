@@ -4,7 +4,7 @@ Drafts of two contributions, for review by the Seeed team before the pull reques
 
 | Contribution | Status | Goes to |
 |---|---|---|
-| [Work with Tesserae](wiki/work_with_tesserae.md), a Wiki page for the reTerminal E1001, E1002, E1003, E1004 and Sticky | First draft, ready for review | [Seeed-Studio/wiki-documents](https://github.com/Seeed-Studio/wiki-documents), at `sites/en/docs/Sensor/ePaper_Displays/Application/work_with_tesserae.md` |
+| [Work with Tesserae](wiki/work_with_tesserae.md), a Wiki page for the reTerminal E1001, E1002, E1003, E1004 and Sticky | Complete, ready for the pull request | [Seeed-Studio/wiki-documents](https://github.com/Seeed-Studio/wiki-documents), at `sites/en/docs/Sensor/ePaper_Displays/Application/work_with_tesserae.md` |
 | [Firmware Hub entry](firmware-hub/), an Official Platforms card for the E1001–E1004, EE02 and EE03 | First draft, ready for review | [Seeed-Projects/OSHW-reTerminal-Series-E-D](https://github.com/Seeed-Projects/OSHW-reTerminal-Series-E-D) |
 
 The Wiki page follows the structure of the existing [Work with TRMNL](https://wiki.seeedstudio.com/reterminal_e10xx_trmnl/) page: overview, compatible hardware, numbered steps from install to first dashboard, buttons and touch, firmware updates, FAQ, resources and the standard support footer. Hardware differences are handled with tabs, as on the TRMNL page.
@@ -23,6 +23,7 @@ The screenshots come from a Tesserae server taken through the full setup with a 
 
 | Section | File | Shows |
 |---|---|---|
+| Cover | `cover.jpg` | Photo: the reTerminal E Series and a Sticky painting Tesserae dashboards (the lineup photo from tesserae.ink) |
 | What is Tesserae? | `15-editor-html-view.png` | The dashboard editor |
 | Compatible Hardware | `sticky-product.jpg` | The Sticky, cropped from `1X1A0256.JPG` in the product photos Mason sent |
 | Step 1, Home Assistant App | `26-ha-app-store-tesserae.png` | Tesserae in the Home Assistant App store |
@@ -50,6 +51,8 @@ The screenshots come from a Tesserae server taken through the full setup with a 
 
 <details>
 <summary>Preview every image</summary>
+
+<img src="wiki/images/cover.jpg" width="700">
 
 <img src="wiki/images/15-editor-html-view.png" width="700">
 
@@ -100,10 +103,6 @@ The screenshots come from a Tesserae server taken through the full setup with a 
 <img src="wiki/images/19b-firmware-update-available-crop.png" width="700">
 
 </details>
-
-## Still to come
-
-- **Photos of the devices:** a cover shot of the reTerminal family and a Sticky painting dashboards, and the reTerminal E Series painting dashboards. The page marks each spot with a `TODO` comment.
 
 ## Settled on 11 November
 

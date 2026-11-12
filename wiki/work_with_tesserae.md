@@ -11,7 +11,7 @@ keywords:
   - reTerminal E1003
   - reTerminal E1004
   - reTerminal Sticky
-image: images/cover.webp
+image: images/cover.jpg
 slug: /reterminal_e10xx_tesserae
 sidebar_position: 4
 last_update:
@@ -27,9 +27,7 @@ import TabItem from '@theme/TabItem';
 
 # Work with Tesserae
 
-:::note TODO
-Cover photo: the reTerminal family and a Sticky painting Tesserae dashboards side by side.
-:::
+<div style={{textAlign:'center'}}><img src="images/cover.jpg" style={{width:700, height:'auto'}}/></div>
 
 This guide takes a reTerminal E Series device or a reTerminal Sticky from the box to a dashboard on the wall with **Tesserae**. You flash the firmware once from the browser, connect the device to your own Tesserae server, and design its pages in the web editor. The steps are the same on every device. Where they differ, pick your device in the tabs.
 
@@ -378,8 +376,6 @@ Some tips for each panel:
 To change what a device shows through the day, open **Lineups** and choose **Set up a display**. You can pick the pages, how often they refresh and when the device stays quiet overnight. For battery-powered devices, **Smart sync** renders each frame just before the device wakes, so it always paints fresh content without wasting battery.
 
 <div style={{textAlign:'center'}}><img src="images/sticky-dashboard-desk.jpg" style={{width:700, height:'auto'}}/></div>
-
-<!-- TODO image (photo): the reTerminal E Series painting dashboards -->
 
 ### Connect your data
 
