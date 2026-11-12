@@ -44,6 +44,7 @@ The screenshots come from a Tesserae server taken through the full setup with a 
 | Step 4 | `10-device-registered.png` | The registered device's card |
 | Step 5 | `16-editor-panel-view.png` | Editor preview in Panel view, the exact frame the device paints |
 | Step 5 | `13-device-card-after-push.png` | The device card after the first push |
+| Step 5 | `sticky-dashboard-desk.jpg` | Photo: a Sticky on a desk showing a year-progress and clock dashboard |
 | Buttons and Touch | `sticky-touch-lights.png` | A touch-controls page rendered for the Sticky |
 | Firmware Updates | `19b-firmware-update-available-crop.png` | Settings → Firmware, an over-the-air update available |
 
@@ -92,6 +93,8 @@ The screenshots come from a Tesserae server taken through the full setup with a 
 
 <img src="wiki/images/13-device-card-after-push.png" width="700">
 
+<img src="wiki/images/sticky-dashboard-desk.jpg" width="700">
+
 <img src="wiki/images/sticky-touch-lights.png" width="300">
 
 <img src="wiki/images/19b-firmware-update-available-crop.png" width="700">
@@ -100,7 +103,7 @@ The screenshots come from a Tesserae server taken through the full setup with a 
 
 ## Still to come
 
-- **Photos of the devices:** a cover shot of the reTerminal family and a Sticky painting dashboards, and each device painting a dashboard. The page marks each spot with a `TODO` comment.
+- **Photos of the devices:** a cover shot of the reTerminal family and a Sticky painting dashboards, and the reTerminal E Series painting dashboards. The page marks each spot with a `TODO` comment.
 
 ## Settled on 11 November
 

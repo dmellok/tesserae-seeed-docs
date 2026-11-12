@@ -377,7 +377,9 @@ Some tips for each panel:
 
 To change what a device shows through the day, open **Lineups** and choose **Set up a display**. You can pick the pages, how often they refresh and when the device stays quiet overnight. For battery-powered devices, **Smart sync** renders each frame just before the device wakes, so it always paints fresh content without wasting battery.
 
-<!-- TODO image (photo): each device painting a dashboard -->
+<div style={{textAlign:'center'}}><img src="images/sticky-dashboard-desk.jpg" style={{width:700, height:'auto'}}/></div>
+
+<!-- TODO image (photo): the reTerminal E Series painting dashboards -->
 
 ### Connect your data
 
