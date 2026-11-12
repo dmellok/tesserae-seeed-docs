@@ -17,17 +17,24 @@ GitHub shows the page's text and images, but not its Docusaurus parts: the tabs 
 
 ## Images
 
-In this copy, the page loads its images from [`wiki/images/`](wiki/images/). For the pull request they'll point at `https://files.seeedstudio.com/wiki/reterminal_e10xx/img/tesserae/<file>`, once your team has uploaded them there. Please tell me if you'd rather I name or size them differently, or if your team prefers another folder.
+The page loads its images from [`wiki/images/`](wiki/images/). As agreed with Mason on 11 November, the pull request includes the images directly, and the Seeed team uploads them to `files.seeedstudio.com` and updates the links.
 
-The screenshots come from a Tesserae server taken through the full setup with a reTerminal Sticky (480×800, 4-level greyscale).
+The screenshots come from a Tesserae server taken through the full setup with a reTerminal Sticky (480×800, 4-level greyscale). The Playground screenshots come from flashing a Sticky there.
 
 | Section | File | Shows |
 |---|---|---|
 | What is Tesserae? | `15-editor-html-view.png` | The dashboard editor |
+| Compatible Hardware | `sticky-product.jpg` | The Sticky, cropped from `1X1A0256.JPG` in the product photos Mason sent |
 | Step 1, first run | `01-first-run-set-password.png` | Choosing a password on first open |
 | Step 1, first run | `02-wizard-welcome.png` | The setup wizard's welcome step |
 | Step 1, first run | `05-wizard-transport.png` | Transport step, REST selected |
 | Step 1, first run | `06b-wizard-device-discovered.png` | Device step, a Sticky that has announced itself, ready to register |
+| Step 2 | `20-flasher-reterminal-selected.png` | The tesserae.ink flasher with a reTerminal E1002 and a firmware build selected |
+| Step 2, Sticky | `21-playground-tesserae-card.png` | The Tesserae card in the Sticky Playground |
+| Step 2, Sticky | `22-playground-tesserae-page.png` | The Tesserae page in the Playground: version, flash mode and device log |
+| Step 2, Sticky | `23-playground-flash-mode.png` | Flash to device, with Erase flash + flash selected |
+| Step 2, Sticky | `24-playground-serial-port.png` | The browser's serial port prompt, showing the Sticky |
+| Step 2, Sticky | `25-playground-device-log.png` | The Device Log part-way through flashing |
 | Step 3 | `07-device-setup-portal-phone.png` | The device's Wi-Fi setup page on a phone |
 | Step 4 | `08-devices-discovered.png` | Settings → Devices, a new device waiting for approval |
 | Step 4 | `09-register-name-device.png` | Naming the device before registering |
@@ -42,6 +49,8 @@ The screenshots come from a Tesserae server taken through the full setup with a 
 
 <img src="wiki/images/15-editor-html-view.png" width="700">
 
+<img src="wiki/images/sticky-product.jpg" width="300">
+
 <img src="wiki/images/01-first-run-set-password.png" width="700">
 
 <img src="wiki/images/02-wizard-welcome.png" width="700">
@@ -49,6 +58,18 @@ The screenshots come from a Tesserae server taken through the full setup with a 
 <img src="wiki/images/05-wizard-transport.png" width="700">
 
 <img src="wiki/images/06b-wizard-device-discovered.png" width="700">
+
+<img src="wiki/images/20-flasher-reterminal-selected.png" width="700">
+
+<img src="wiki/images/21-playground-tesserae-card.png" width="320">
+
+<img src="wiki/images/22-playground-tesserae-page.png" width="700">
+
+<img src="wiki/images/23-playground-flash-mode.png" width="500">
+
+<img src="wiki/images/24-playground-serial-port.png" width="320">
+
+<img src="wiki/images/25-playground-device-log.png" width="360">
 
 <img src="wiki/images/07-device-setup-portal-phone.png" width="320">
 
@@ -71,10 +92,14 @@ The screenshots come from a Tesserae server taken through the full setup with a 
 ## Still to come
 
 - **Photos of the devices:** a cover shot of the reTerminal family and a Sticky painting dashboards, a device on its setup screen with the QR code, and each device painting a dashboard. The page marks each spot with a `TODO` comment.
-- **The Sticky's product image** for the hardware table. I've assumed Seeed already has one on `files.seeedstudio.com`; please point me at it.
-- **The Playground link:** the public URL of the Tesserae entry in the Sticky Playground.
-- **Two more screenshots:** the tesserae.ink flasher with a reTerminal selected, and the Playground flashing page with the Tesserae entry.
-- **Special Thanks:** I'd like to thank people at Seeed by name, as the TRMNL page does, if you're happy with that and tell me who.
+
+## Settled on 11 November
+
+- **Pull requests** go in directly, and review happens there.
+- **Images** travel in the pull request (see above).
+- **The Playground link** is https://www.seeedstudio.com/sticky/playground/tesserae/, now in Step 2.
+- **Special Thanks** names Mason Cao and Meilily Li, and the Tesserae contributors.
+- **The Sticky's image** in the hardware table comes from the product photos Mason sent.
 
 ## About Tesserae
 

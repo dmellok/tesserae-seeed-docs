@@ -15,11 +15,11 @@ image: images/cover.webp
 slug: /reterminal_e10xx_tesserae
 sidebar_position: 4
 last_update:
-  date: 11/09/2026
+  date: 11/12/2026
   author: Kayden D'Mello
 createdAt: '2026-11-09'
 url: https://wiki.seeedstudio.com/reterminal_e10xx_tesserae/
-updatedAt: '2026-11-09'
+updatedAt: '2026-11-12'
 ---
 
 import Tabs from '@theme/Tabs';
@@ -121,8 +121,7 @@ The project began with the reTerminal E Series and grew alongside it. The E1001 
       <th>reTerminal Sticky</th>
     </tr>
     <tr>
-      <!-- TODO image: Seeed's Sticky product image from files.seeedstudio.com -->
-      <td align="center"><em>Sticky product image (TODO)</em></td>
+      <td><div style={{textAlign:'center'}}><img src="images/sticky-product.jpg" style={{width:200, height:'auto'}}/></div></td>
     </tr>
     <tr>
       <td align="center">4-level greyscale, 480 × 800 portrait<br/>Touch supported</td>
@@ -273,11 +272,11 @@ The reTerminal E Series connects through a WCH CH340 USB-serial chip, and macOS 
 
 1. Connect the device to your computer with the USB-C data cable.
 2. Open **[tesserae.ink/flash](https://tesserae.ink/flash)** in Chrome or Edge.
-3. Under **Choose your panel**, select your reTerminal model.
+3. Under **Choose your panel**, select your reTerminal model, then pick the newest version under **Firmware build**.
 4. Click **Next: plug it in**, then **Connect & flash**, and pick the device's serial port.
 5. Wait 60 to 90 seconds. Leave the cable connected until the flasher confirms success.
 
-<!-- TODO image: tesserae.ink/flash with a reTerminal selected -->
+<div style={{textAlign:'center'}}><img src="images/20-flasher-reterminal-selected.png" style={{width:700, height:'auto'}}/></div>
 
 When flashing finishes, the flasher's **Connect it** step can send your Wi-Fi details and server address to the device over the same cable. Choose **My own Tesserae server**, enter the address from Step 1, and skip to Step 4.
 
@@ -286,16 +285,28 @@ When flashing finishes, the flasher's **Connect it** step can send your Wi-Fi de
 
 Sticky owners can flash Tesserae straight from the Sticky Playground.
 
-1. Open the [Tesserae page in the Sticky Playground](/sticky/playground/tesserae/). <!-- TODO confirm the public Playground URL -->
+1. Open the [Tesserae page in the Sticky Playground](https://www.seeedstudio.com/sticky/playground/tesserae/), or find the **Tesserae** card in the Playground and click **Flash Now**.
+
+   <div style={{textAlign:'center'}}><img src="images/21-playground-tesserae-card.png" style={{width:320, height:'auto'}}/></div>
+
 2. Connect the Sticky to your computer with the USB-C data cable, and keep it connected until flashing is complete.
-3. Select the Tesserae firmware version shown on the page.
-4. Choose a flash mode:
+3. Under **Version and setup**, select the Tesserae firmware version shown on the page.
+
+   <div style={{textAlign:'center'}}><img src="images/22-playground-tesserae-page.png" style={{width:700, height:'auto'}}/></div>
+
+4. Under **Flash to device**, choose a flash mode:
    - **Standard flash** writes the firmware and keeps the Sticky's saved Wi-Fi settings.
    - **Erase flash + flash** clears the whole flash first. Use it when you are coming from a different firmware.
-5. Click **Connect & flash**, and select the Sticky's serial port when Chrome or Edge asks.
-6. Wait until the progress bar and device log show that flashing is complete. The Playground resets the device for you.
 
-<!-- TODO image: the Playground flashing page with the Tesserae entry -->
+   <div style={{textAlign:'center'}}><img src="images/23-playground-flash-mode.png" style={{width:500, height:'auto'}}/></div>
+
+5. Click **Connect & flash**. When Chrome or Edge asks, select the Sticky's serial port, which appears as **USB Single Serial**, and click **Connect**.
+
+   <div style={{textAlign:'center'}}><img src="images/24-playground-serial-port.png" style={{width:320, height:'auto'}}/></div>
+
+6. Wait until the progress bar and the **Device Log** show that flashing is complete. The Playground resets the device for you.
+
+   <div style={{textAlign:'center'}}><img src="images/25-playground-device-log.png" style={{width:360, height:'auto'}}/></div>
 
 The Playground uses the same firmware package as [tesserae.ink/flash](https://tesserae.ink/flash), so you can use either.
 
@@ -441,9 +452,9 @@ The battery may be too low for a panel refresh. Connect USB power, let it charge
 
 ## Special Thanks
 
-Thanks to the Seeed Studio team for their support throughout the reTerminal E Series and Sticky bring-up, and to the Tesserae community for the widgets, firmware testing and hardware reports behind this integration.
+Special thanks to the **Seeed Studio** team for their support throughout the reTerminal E Series and Sticky bring-up, and in particular to **Mason Cao** and **Meilily Li**.
 
-<!-- TODO: name specific Seeed people if Mason is happy to, as the TRMNL page does -->
+Thanks also to the Tesserae contributors who helped make the project possible, in particular **[skynet01](https://github.com/skynet01)**, **[charmmmz](https://github.com/charmmmz)**, **[theiereman](https://github.com/theiereman)**, **[vaibhav8a](https://github.com/vaibhav8a)**, **[partridgeworks](https://github.com/partridgeworks)**, **[bablokb](https://github.com/bablokb)**, **[varanu5](https://github.com/varanu5)** and **[Frankynov](https://github.com/Frankynov)**, and to the wider community for the widgets, firmware testing and hardware reports behind this integration.
 
 ## Resources
 
