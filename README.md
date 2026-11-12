@@ -25,6 +25,7 @@ The screenshots come from a Tesserae server taken through the full setup with a 
 |---|---|---|
 | What is Tesserae? | `15-editor-html-view.png` | The dashboard editor |
 | Compatible Hardware | `sticky-product.jpg` | The Sticky, cropped from `1X1A0256.JPG` in the product photos Mason sent |
+| Step 1, Home Assistant App | `26-ha-app-store-tesserae.png` | Tesserae in the Home Assistant App store |
 | Step 1, first run | `01-first-run-set-password.png` | Choosing a password on first open |
 | Step 1, first run | `02-wizard-welcome.png` | The setup wizard's welcome step |
 | Step 1, first run | `05-wizard-transport.png` | Transport step, REST selected |
@@ -50,6 +51,8 @@ The screenshots come from a Tesserae server taken through the full setup with a 
 <img src="wiki/images/15-editor-html-view.png" width="700">
 
 <img src="wiki/images/sticky-product.jpg" width="300">
+
+<img src="wiki/images/26-ha-app-store-tesserae.png" width="400">
 
 <img src="wiki/images/01-first-run-set-password.png" width="700">
 

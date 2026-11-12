@@ -178,7 +178,7 @@ https://github.com/dmellok/homeassistant-tesserae-addon
 
 Your devices reach Tesserae at Home Assistant's own address on port 8765, for example `http://homeassistant.local:8765`. If you run the Mosquitto broker App, Tesserae uses it automatically, so your panels can appear in Home Assistant later (see Step 5).
 
-<!-- TODO image: Tesserae in the Home Assistant App store -->
+<div style={{textAlign:'center'}}><img src="images/26-ha-app-store-tesserae.png" style={{width:400, height:'auto'}}/></div>
 
 ### Docker
 
