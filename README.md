@@ -109,7 +109,7 @@ The screenshots come from a Tesserae server taken through the full setup with a 
 - **Pull requests** go in directly, and review happens there.
 - **Images** travel in the pull request (see above).
 - **The Playground link** is https://www.seeedstudio.com/sticky/playground/tesserae/, now in Step 2.
-- **Special Thanks** names Mason Cao and Meilily Li, and the Tesserae contributors.
+- **Special Thanks** names Mason Cao and Lily Li, and the Tesserae contributors.
 - **The Sticky's image** in the hardware table comes from the product photos Mason sent.
 
 ## About Tesserae
