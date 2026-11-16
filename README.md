@@ -1,11 +1,12 @@
 # Tesserae docs for the Seeed Wiki and Firmware Hub
 
-Drafts of two contributions, for review by the Seeed team before the pull requests go in:
+Drafts of three contributions, for review by the Seeed team before the pull requests go in:
 
 | Contribution | Status | Goes to |
 |---|---|---|
 | [Work with Tesserae](wiki/work_with_tesserae.md), a Wiki page for the reTerminal E1001, E1002, E1003, E1004 and Sticky | Complete, ready for the pull request | [Seeed-Studio/wiki-documents](https://github.com/Seeed-Studio/wiki-documents), at `sites/en/docs/Sensor/ePaper_Displays/Application/work_with_tesserae.md` |
 | [Firmware Hub entry](firmware-hub/), an Official Platforms card for the E1001–E1004, EE02 and EE03 | First draft, ready for review | [Seeed-Projects/OSHW-reTerminal-Series-E-D](https://github.com/Seeed-Projects/OSHW-reTerminal-Series-E-D) |
+| [Tesserae on the reTerminal Sticky](guest-post/tesserae-on-the-sticky.md), a guest post for the Seeed blog | First draft, ready for review | The Seeed Studio blog |
 
 The Wiki page follows the structure of the existing [Work with TRMNL](https://wiki.seeedstudio.com/reterminal_e10xx_trmnl/) page: overview, compatible hardware, numbered steps from install to first dashboard, buttons and touch, firmware updates, FAQ, resources and the standard support footer. Hardware differences are handled with tabs, as on the TRMNL page.
 
