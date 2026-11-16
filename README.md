@@ -25,7 +25,7 @@ The screenshots come from a Tesserae server taken through the full setup with a 
 | Section | File | Shows |
 |---|---|---|
 | Cover | `cover.jpg` | Photo: the reTerminal E Series painting Tesserae dashboards (the lineup photo from tesserae.ink) |
-| What is Tesserae? | `15-editor-html-view.png` | The dashboard editor |
+| What is Tesserae? | `27-editor-live-view.png` | The dashboard editor |
 | Compatible Hardware | `sticky-product.jpg` | The Sticky, cropped from `1X1A0256.JPG` in the product photos Mason sent |
 | Step 1, Home Assistant App | `26-ha-app-store-tesserae.png` | Tesserae in the Home Assistant App store |
 | Step 1, first run | `01-first-run-set-password.png` | Choosing a password on first open |
@@ -44,7 +44,7 @@ The screenshots come from a Tesserae server taken through the full setup with a 
 | Step 4 | `08-devices-discovered.png` | Settings → Devices, a new device waiting for approval |
 | Step 4 | `09-register-name-device.png` | Naming the device before registering |
 | Step 4 | `10-device-registered.png` | The registered device's card |
-| Step 5 | `16-editor-panel-view.png` | Editor preview in Panel view, the exact frame the device paints |
+| Step 5 | `28-editor-as-the-panel-shows-it.png` | Editor preview set to "As the panel shows it", the exact frame the device paints |
 | Step 5 | `13-device-card-after-push.png` | The device card after the first push |
 | Step 5 | `sticky-dashboard-desk.jpg` | Photo: a Sticky on a desk showing a year-progress and clock dashboard |
 | Buttons and Touch | `sticky-touch-lights.png` | A touch-controls page rendered for the Sticky |
@@ -55,7 +55,7 @@ The screenshots come from a Tesserae server taken through the full setup with a 
 
 <img src="wiki/images/cover.jpg" width="700">
 
-<img src="wiki/images/15-editor-html-view.png" width="700">
+<img src="wiki/images/27-editor-live-view.png" width="700">
 
 <img src="wiki/images/sticky-product.jpg" width="300">
 
@@ -93,7 +93,7 @@ The screenshots come from a Tesserae server taken through the full setup with a 
 
 <img src="wiki/images/10-device-registered.png" width="700">
 
-<img src="wiki/images/16-editor-panel-view.png" width="700">
+<img src="wiki/images/28-editor-as-the-panel-shows-it.png" width="700">
 
 <img src="wiki/images/13-device-card-after-push.png" width="700">
 

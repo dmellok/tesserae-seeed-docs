@@ -12,7 +12,7 @@ I started it because I wanted a simple way to send photos to an e-ink display, a
 
 I made the first commit in May 2026, and Seeed hardware has been part of the project almost from the start. The reTerminal E1001 was one of the first devices Tesserae supported. The E1003 followed with 16 levels of grey and touch, then the E1002 and E1004 in full Spectra 6 colour. Each new device pushed the project somewhere it needed to go: the E1003 is why Tesserae has touch at all, and the colour panels are why photos are dithered on the server instead of on the device.
 
-When the reTerminal Sticky launched in July, it fitted straight in. It is small, it runs on a battery, it has a touchscreen, and it is the size of display people leave on a desk or stick to a fridge. Since September, Tesserae has been listed as Partner Firmware in the Sticky Playground, and most weeks the Sticky is among the most-flashed devices in the project.
+When the [reTerminal Sticky](https://www.seeedstudio.com/reTerminal-Sticky-p-6861.html?sensecap_affiliate=YcT0R1h&referring_service=link) launched in July, it fitted straight in. It is small, it runs on a battery, it has a touchscreen, and it is the size of display people leave on a desk or stick to a fridge. Since September, Tesserae has been listed as Partner Firmware in the Sticky Playground, and most weeks the Sticky is among the most-flashed devices in the project.
 
 Today Tesserae has more than 1,200 stars on GitHub and more than 550 active installs in over 50 countries.
 
@@ -29,7 +29,7 @@ One firmware family covers the whole range, and the setup steps are the same on 
 
 | Device | Display | In Tesserae |
 |---|---|---|
-| reTerminal Sticky | 480 × 800, portrait | 4-level greyscale, touch, buzzer |
+| [reTerminal Sticky](https://www.seeedstudio.com/reTerminal-Sticky-p-6861.html?sensecap_affiliate=YcT0R1h&referring_service=link) | 480 × 800, portrait | 4-level greyscale, touch, buzzer |
 | reTerminal E1001 | 7.5", 800 × 480 | Monochrome and 4-level greyscale |
 | reTerminal E1002 | 7.3" Spectra 6, 800 × 480 | Full six-colour output |
 | reTerminal E1003 | 10.3", 1872 × 1404 | 16-level greyscale, touch |
@@ -47,7 +47,7 @@ Tesserae sits between the two. The dashboard editor walks you through it: pick a
 
 ![The Tesserae dashboard editor, with a live preview of a Sticky dashboard](images/editor-new-live.png)
 
-Pairing that with Seeed hardware works well for a simple reason: the devices arrive finished. A Sticky or a reTerminal E has a case, a battery and a good panel, so there is nothing to solder and nothing to print. Tesserae supplies the software side, and between the two you get a display that looks like a product and behaves like your own project.
+Pairing that with Seeed hardware works well for a simple reason: the devices arrive finished. A [Sticky](https://www.seeedstudio.com/reTerminal-Sticky-p-6861.html?sensecap_affiliate=YcT0R1h&referring_service=link) or a reTerminal E has a case, a battery and a good panel, so there is nothing to solder and nothing to print. Tesserae supplies the software side, and between the two you get a display that looks like a product and behaves like your own project.
 
 ## 4. What people build with it
 
@@ -65,7 +65,7 @@ A dashboard does not have to be a grid of numbers. These are a few of the widget
 
 ![A Map Poster of Shenzhen in six colours](images/usecase-map-poster.png)
 
-**A light switch that never glows.** With touch turned on, the Sticky shows your Home Assistant lights as tap targets and confirms each tap with a partial refresh in under a second.
+**A light switch that never glows.** With touch turned on, the [Sticky](https://www.seeedstudio.com/reTerminal-Sticky-p-6861.html?sensecap_affiliate=YcT0R1h&referring_service=link) shows your Home Assistant lights as tap targets and confirms each tap with a partial refresh in under a second.
 
 ![Home Assistant light controls on a Sticky](images/sticky-touch-lights.png)
 
@@ -79,7 +79,7 @@ The whole thing takes about fifteen minutes, and the only tools are a USB-C data
 
 **1. Install the Tesserae server.** If you run Home Assistant, Tesserae installs as an App. Otherwise it is one command on a Raspberry Pi, a NAS, or any computer that stays on. Either way you end up with the web UI on port 8765. If you would rather not run a server, [Tesserae Cloud](https://cloud.tesserae.ink) does it for you.
 
-**2. Flash from the Sticky Playground.** Open the [Tesserae page in the Playground](https://www.seeedstudio.com/sticky/playground/tesserae/), connect the Sticky, choose **Erase flash + flash**, and click **Connect & flash**. The Sticky appears in the browser as **USB Single Serial**. A minute or so later the Playground resets it for you.
+**2. Flash from the Sticky Playground.** Open the [Tesserae page in the Playground](https://www.seeedstudio.com/sticky/playground/tesserae/), connect the [Sticky](https://www.seeedstudio.com/reTerminal-Sticky-p-6861.html?sensecap_affiliate=YcT0R1h&referring_service=link), choose **Erase flash + flash**, and click **Connect & flash**. The Sticky appears in the browser as **USB Single Serial**. A minute or so later the Playground resets it for you.
 
 ![The Tesserae page in the Sticky Playground](images/22-playground-tesserae-page.png)
 
@@ -104,11 +104,12 @@ Supporting a device is much easier when the hardware is open and the people behi
 What works well:
 
 - **The devices are finished.** A case, a battery and a good panel mean a reader can go from the box to a dashboard in one sitting.
-- **The range is consistent.** One firmware family covers every device in the table above, so what you learn on a Sticky carries over to a 13.3" colour panel.
+- **The range is consistent.** One firmware family covers every device in the table above, so what you learn on a [Sticky](https://www.seeedstudio.com/reTerminal-Sticky-p-6861.html?sensecap_affiliate=YcT0R1h&referring_service=link) carries over to a 13.3" colour panel.
 - **Flashing is easy to reach.** The Playground puts the first flash one click away, in a browser.
 
 ## Try it
 
+- Get one: [reTerminal Sticky at Seeed Studio](https://www.seeedstudio.com/reTerminal-Sticky-p-6861.html?sensecap_affiliate=YcT0R1h&referring_service=link)
 - Flash it: [Tesserae in the Sticky Playground](https://www.seeedstudio.com/sticky/playground/tesserae/)
 - Full guide for every reTerminal: [Work with Tesserae on the Seeed Wiki](https://wiki.seeedstudio.com/reterminal_e10xx_tesserae/)
 - Project home and documentation: [tesserae.ink](https://tesserae.ink) and [docs.tesserae.ink](https://docs.tesserae.ink/)
